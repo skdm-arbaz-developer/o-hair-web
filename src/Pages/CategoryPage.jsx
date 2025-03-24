@@ -57,7 +57,7 @@ const CategoryPage = () => {
           <div className="container">
             {data.map((elem, index) => {
               const { name, image, sub_categories, description } = elem;
-              return (
+              return ( elem?.sub_categories?.length > 0 &&
                 <>
                   <div className="category-main-page-section-1-main-con">
                     <div className="row">
