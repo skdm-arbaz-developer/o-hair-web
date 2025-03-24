@@ -1,0 +1,175 @@
+.home-section-testimonial {
+    padding: 10vh 0px;
+    background:url("../../Images/new/testimonial/back_paper.jpg");
+    position: relative;
+    background-size: cover;
+    position: sticky;
+    /* background-color: whitesmoke;  */
+}
+
+.home-section-testimonial-main-con {}
+
+.home-section-testimonial-head-main-con {}
+
+.home-section-testimonial-head-main-con h2 {
+    margin-bottom: 25px;
+    font-family: var(---smallFont);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .22em;
+    line-height: 1;
+    font-size: 16px;
+    color: #9a563a;
+}
+
+.home-section-testimonial-head-main-con h3 {
+    font-size: 40px;
+    font-family: var(---headFont);
+    color: #121f38;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+.home-testimonial-section-head-image-main-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0 45px 0;
+}
+
+.home-testimonial-section-head-image-con {
+    max-height: 30px;
+    width: max-content;
+    height: 25px;
+}
+
+.home-testimonial-section-head-image-con img {
+    height: 100%;
+    width: 100%;
+}
+
+/* details  */
+
+
+.home-testimonial-section-details-main-con {}
+
+.home-testimonial-section-details-con {}
+
+.home-testimonial-section-details-image-main-con {
+    margin: 20px 0px;
+}
+
+.home-testimonial-section-details-image-main-con svg {
+    font-size: 40px;
+}
+
+.home-testimonial-section-details-para-main-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-testimonial-section-details-para-main-con p {
+    width: 50%;
+}
+
+.home-testimonial-section-details-con h4 {
+    font-family: var(---headFont);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.home-testimonial-section-details-client-images-main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.home-testimonial-section-details-client-images-con{
+    border: 5px solid #ffede8;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+.home-testimonial-section-details-client-images-con img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.home-testimonial-section-details-main-con .swiper-button-prev{
+    /* border: 1px solid red; */
+    padding: 10px !important;
+color: var(---primaryColor);
+/* border-radius: 70%; */
+}
+
+.home-testimonial-section-details-main-con .swiper-button-next{
+    color: var(---primaryColor);
+}
+
+.home-testimonail-image-01{
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 170px;
+    width: 170px;
+}
+
+.home-testimonail-image-01 img{
+    height: 100%;
+    width: 100%;
+}
+
+.home-testimonail-image-02{
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    height: 170px;
+    width: 170px;
+}
+
+.home-testimonail-image-02 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.home-section-testimonial::after{
+    content: ""; /* Required for the pseudo-element to appear */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 300px;
+    height: 300px;
+    background-image: url('../../Images/new/testimonial/testimonial01.png'); /* Set the background image */
+    background-size: 100% 100%; /* Adjusts the image to cover the element */
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust transparency */
+    z-index: -1; /* Places it behind the content */
+    /* border: 1px solid red; */
+}
+
+.home-section-testimonial::before{
+    content: ""; /* Required for the pseudo-element to appear */
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 300px;
+    height: 300px;
+    background-image: url('../../Images/new/testimonial/testimonial02.png'); /* Set the background image */
+    background-size: 100% 100%; /* Adjusts the image to cover the element */
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust transparency */
+    z-index: -1; /* Places it behind the content */
+    /* border: 1px solid red; */
+}

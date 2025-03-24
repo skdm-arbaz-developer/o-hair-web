@@ -1,0 +1,108 @@
+.service-page-banner-image {
+    background: url(http://localhost:3000/static/media/other-banner-images.7b898b6….jpg);
+    background-size: cover;
+    background-image: linear-gradient(to bottom, #fcf2ee 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.all-pages-banner-main-con {
+    /* border: 1px solid red; */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    position: relative !important;
+}
+
+.all-pages-banner-con {
+    /* border: 1px solid blue; */
+    margin: 0px 0px 0px 50px;
+    text-align: left;
+}
+
+.all-pages-banner-con h1 {
+    font-family: var(---smallFont);
+    font-weight: 200;
+    /* color: var(---primaryColor); */
+    color: black;
+}
+
+.all-pages-banner-con h2 {
+    font-family: var(---headFont);
+    font-size: 50px;
+    color: black;
+}
+
+.all-pages-banner-con h2 span {
+    color: var(---primaryColor);
+
+}
+
+.all-page-banner-pagination-main-con {
+    display: flex;
+    align-items: center;
+}
+
+.all-page-banner-pagination-main-con h3 {
+    font-family: var(---smallFont);
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+}
+
+.all-page-banner-pagination-main-con svg {
+    margin: 0px 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.all-page-banner-pagination-main-con h4 {
+    font-family: var(---smallFont);
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+}
+
+.other-banner-images-main-con{
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-banner-images-con{
+    /* border: 1px solid blue; */
+    height: 50vh;
+    width: auto;
+}
+
+.other-banner-images-con img{
+    height: 100%;
+    width: 100%;
+    animation: zoomInOut 3s infinite alternate ease-in-out;
+}
+
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+
+@media(max-width:768px){
+    .all-pages-banner-main-con {
+
+    }
+
+    .other-banner-images-main-con {
+width: 100%;
+    }
+}

@@ -1,0 +1,130 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:url("../Images/Login/back01.jpg"); */
+    background-size: cover;
+    padding: 10vh 0px !important;
+}
+
+.account-card {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    /* box-shadow: 2px 3px 6px #808080; */
+    padding: 20px;
+    border-radius: 10px;
+    background:#eee;
+}
+
+.account-card.signUp {
+    max-width: 400px;
+}
+
+.account-card .title {
+    margin: 25px 0 25px 0;
+}
+
+.account-card .title h1 {
+    color: var(---primaryColor);
+    font-size: 2rem;
+    font-family: var(---headFont);
+}
+
+.account-card input {
+    background-color: transparent !important;
+}
+
+.account-card input:hover {
+    border-color: #000 !important;
+}
+
+.account-card .login-form-button {
+    width: 100%;
+    height: 40px;
+    background-color: var(---primaryColor);
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.account-card .login-form-button:hover {
+    color: black !important;
+    border-color: white !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+
+.account-card a {
+    font-size: 15px;
+    color: var(---primaryColor);
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+.widthimage {
+    width: 100%;
+    max-width: 600px;
+}
+
+.Google-Login-btn-con {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Google-Login-btn-main-con {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    border-radius: 50px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.Google-Login-icon {
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 30px;
+}
+
+.Google-Login-icon img {
+    height: 100%;
+    width: 100%;
+}
+
+.Google-Login-text {
+    /* border: 1px solid blue; */
+    margin: 0px 0px 0px 10px;
+}
+
+.Google-Login-text h3 {
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+    font-family: var(---font01);
+}
+
+.Google-Login-btn-con:hover {
+    cursor: pointer;
+}
+
+
+.image-vector-main-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .widthimage {
+        display: none !important;
+    }
+
+    .login-page {
+        background:url("../Images/Login/small-bg-image.avif");
+        background-size: cover;
+height: auto;
+    };
+}

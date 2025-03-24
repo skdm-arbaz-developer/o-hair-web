@@ -1,0 +1,173 @@
+.app-home-section-category-main-con {
+    margin: 35px 0px;
+}
+
+.app-home-section-category-con {
+    /* border: 1px solid red; */
+}
+
+.app-home-section-category-tabs-main-con {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    padding: 0px 0px 10px 0px;
+}
+
+
+
+.app-home-section-category-tabs-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.app-home-section-category-image-con {
+    padding: 10px;
+    /* border: 1px solid blue; */
+    border-radius: 50px;
+    background: rgba(203, 219, 197, 0.622);
+}
+
+.app-home-section-category-tabs-con h2 {
+    margin: 0px 0px 0px 10px;
+    font-family: var(---smallFont);
+    font-size: 15px;
+    width: max-content;
+}
+
+.app-home-section-category-tabs-image-con {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    /* margin: 0px 0px 7px 0px; */
+}
+
+.app-home-section-category-tabs-image-con img {
+    height: 100%;
+    width: 100%;
+}
+
+.app-home-section-category-section-details-main-con {
+    /* border: 1px solid blue; */
+    margin: 20px 0px;
+}
+
+.app-home-section-category-service-main-card-con {
+    /* border: 1px solid blue;  */
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    margin: 0px 0px 30px 0px;
+}
+
+.app-home-section-category-service-card {
+    /* border: 1px solid red; */
+    height: auto;
+    border-radius: 8px;
+    max-height: 205px;
+}
+
+
+.app-home-section-category-service-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.app-home-section-category-service-card-details {
+    margin: 15px 0px 3px 0px;
+}
+
+.app-home-section-category-service-card-details h3 {
+    font-family: var(---headFont);
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.app-home-section-category-service-card-star {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+    margin: 8px 0px 0px 0px;
+}
+
+.app-home-section-category-service-card-star-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-home-section-category-service-card-star-con svg {
+    font-size: 12px;
+    margin: 0px 5px 0px 0px;
+    color: #f8c443;
+}
+
+.app-home-section-category-service-card-star-con h4 {
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+
+.app-home-section-category-service-card-star-time {}
+
+.app-home-section-category-service-card-star-time h5 {
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+
+.app-home-section-category-service-card-add-btn {}
+
+.app-home-section-category-service-card-add-btn svg {}
+
+.app-home-section-category-service-card-price-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.app-home-section-category-service-card-price-con h6 {
+    margin: 0px;
+    font-family: var(---headFont);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(---secondaryColor);
+}
+
+.app-home-section-category-service-card-add-btn {
+    border: 1px solid var(---primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 25px;
+    background: rgb(203, 219, 197, 0.60);
+}
+
+.app-home-section-category-service-card-add-btn svg {
+    color: var(---primaryColor);
+}
+
+.app-home-section-category-tabs-con.active {
+    background: var(---primaryColor);
+}
+
+.app-home-section-category-tabs-con.active .app-home-section-category-image-con {
+    background: whitesmoke;
+
+
+}
+
+.app-home-section-category-tabs-con.active h2 {
+    color: whitesmoke !important;
+}

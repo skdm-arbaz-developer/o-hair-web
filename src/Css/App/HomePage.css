@@ -1,0 +1,13 @@
+.app-home-page-main-con{
+    /* border: 1px solid blue; */
+    height: 100vh;
+    position: relative;
+}
+
+
+.app-home-page-mid-main-con{
+    /* border: 1px solid red; */
+    height: 77vh;
+    overflow-y: scroll;
+    padding: 0px 20px;
+}

@@ -1,0 +1,94 @@
+.app-home-team-section-main-con{
+/* border: 1px solid blue; */
+}
+
+.app-home-team-section-detail-main-con{
+/* border: 1px solid red; */
+}
+
+.app-home-section-team-service-main-card-con{
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+.app-home-section-team-service-card-images{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-home-section-team-service-card{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.app-home-section-team-service-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+.app-home-section-team-service-card-details{
+    margin: 10px 0px 0px 0px;
+}
+
+.app-home-section-team-service-card-details h3{
+    font-size: 15px;
+    font-family: var(---headFont);
+    margin: 0px;
+}
+
+.app-home-section-team-service-card-details h4{
+    font-family: var(---smallFont);
+    font-size: 15px;
+    color: var(---primaryColor);
+}
+
+.app-home-section-team-service-card-star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.app-home-section-team-service-card-star-con{
+    display: flex;
+    align-items: center;
+}
+
+.app-home-section-team-service-card-star-con svg{
+    font-size: 12px;
+    margin: 0px 5px 0px 0px;
+    color: #f8c443;
+}
+
+.app-home-section-team-service-card-star-con h5{
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+
+.app-home-section-team-service-card-star-time{
+
+}
+
+.app-home-section-team-service-card-star-time h6{
+    margin: 0px;
+    font-size: 13px;
+    color: gray;
+}
+
+.app-home-team-section-head-main-con{
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.app-home-team-section-head-main-con h3{
+    font-family: var(---smallFont);
+    font-size: 16px;
+}

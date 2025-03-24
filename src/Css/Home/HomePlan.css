@@ -1,0 +1,211 @@
+.price-grid {
+    position: relative;
+    text-align: center;
+    padding: 60px 45px 13px 45px;
+    margin: 3px 3px 40px 3px;
+}
+.home-plan-section{
+    padding: 10vh 0px;
+}
+.background-image, [data-bg-src] {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.price-grid:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.price-grid .price-shape::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 30px;
+    right: 30px;
+    height: 12px;
+    background-color: #ad8858;
+    z-index: 3;
+}
+
+.price-grid .price-shape::after {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -3px;
+    left: 30px;
+    right: 30px;
+    height: 12px;
+    background-color: #ad8858;
+    z-index: 3;
+}
+
+.price-grid .price-shape2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    /* background-color: #FFFFFF; */
+    transition: width ease .4s, border-color ease .7s;
+    z-index: 1;
+    border-width: 1px 0 1px 1px;
+    border-color: #e4e4e4;
+    border-style: solid;
+}
+
+.price-grid .price-shape2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    /* background-color: #FFFFFF; */
+    transition: width ease .4s, border-color ease .7s;
+    z-index: 1;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    left: auto;
+    right: 0;
+}
+
+.price-grid .price-shape3::before {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    top: 6px;
+    height: calc(100% - 12px);
+    left: 6px;
+}
+ .price-grid .price-shape3:before{
+    content: "";
+    position: absolute;
+    width: 51%;
+    transition: width ease .4s, border-color ease .7s;
+    border-width: 1px 0 1px 1px;
+    border-color: #e4e4e4;
+    border-style: solid;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    top: 6px;
+    height: calc(100% - 12px);
+    left: 6px;
+}
+
+.price-grid .price-shape3::after{
+    content: "";
+    position: absolute;
+    width: 51%;
+    transition: width ease .4s, border-color ease .7s;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    top: 6px;
+    height: calc(100% - 12px);
+    right: 6px;
+    left: auto;
+}
+
+.price-grid .price-icon {
+    margin-bottom: 25px;
+}
+
+.price-grid .price-icon {
+    position: relative;
+    z-index: 4;
+}
+
+.slick-slide img {
+    display: inline-block;
+    max-width: 20%;
+    height: auto;
+}
+
+.price-grid .package-name {
+    color: white;
+    font-size: 22px;
+    transition: all ease .4s;
+    position: relative;
+    z-index: 4;
+}
+
+.price-list {
+    max-width: 100%;
+    position: relative;
+    z-index: 4;
+    height: 310px;
+    overflow-y: scroll;
+}
+
+.price-list ul {
+    margin: 0 0 40px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.price-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: all ease .4s;
+}
+
+.price-list .package {
+    font-size: 14px;
+    color: #666666;
+    transition: all ease .4s;
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.price-grid .price-list .border-middle {
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease .4s;
+}
+
+.price-list .border-middle {
+    border: 1px dashed #bcbcbc;
+    flex: 1 0 0%;
+    width: 100%;
+    height: 1px;
+    background-color:#666666;
+    margin: 3px 20px 0 25px;
+    opacity: .6;
+}
+
+.price-grid:hover .price-shape2:before {
+    width: 0;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.price-grid:hover .price-shape2:after{
+    width: 0;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.package-name {
+    color: #FFFFFF;
+}
+.price-list .package {
+    color: #ccc;
+}
+
+.price-list .border-middle {
+    border-color: #ccc;
+}
+
+.price-list .price {
+    color: #ccc;
+}

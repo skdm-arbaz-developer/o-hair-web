@@ -1,0 +1,46 @@
+.OrderDetials-con {
+    border: 1px solid #E0E2E3;
+    /* padding: 30px; */
+}
+
+.OrderDetials-billing-personal-details-con {
+    /* border: 1px solid blue; */
+}
+
+.OrderDetials-billing-personal-details {
+    /* border: 1px solid green; */
+    border: 1px solid #E0E2E3;
+    padding: 30px;
+}
+
+.OrderDetials-billing-personal-details h2 {
+    text-align: left;
+    font-family: var(---MainHeadFont);
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.OrderDetials-personal-details {
+    /* display: flex; */
+}
+
+.OrderDetials-personal-details-name {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.OrderDetials-personal-details-name h2 {
+    font-family: var(---font02);
+    font-size: 16px;
+    margin: 0px;
+}
+
+.OrderDetials-billing-personal-details h2 svg {
+    border: 1px solid red;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: green;
+}

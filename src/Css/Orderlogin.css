@@ -1,0 +1,83 @@
+.Orderlogin-con {
+    border: 1px solid #E0E2E3;
+    /* padding: 30px; */
+    margin: 0px 0px 40px 0px;
+}
+
+.Orderlogin-billing-personal-details-con {
+    /* border: 1px solid blue; */
+}
+
+.Orderlogin-billing-personal-details {
+    /* border: 1px solid green; */
+    border: 1px solid #E0E2E3;
+    padding: 30px;
+}
+
+.Orderlogin-billing-personal-details h2 {
+    text-align: left;
+    text-transform: capitalize;
+    font-family: var(---MainHeadFont);
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.Orderlogin-personal-details {
+    text-align: left;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+
+.Orderlogin-personal-details-name {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.Orderlogin-personal-details-name h2 {
+    font-family: var(---font02);
+    font-size: 15px;
+    margin: 0px;
+}
+
+.Orderlogin-billing-personal-details h2 svg {
+    border: 1px solid red;
+}
+
+
+.Order-Details-btn-login-con {
+    margin: 0px 10px;
+}
+
+.Order-Details-btn-login-con button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+
+.Order-Details-btn-login-con:hover button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+.Order-Details-btn-Register-con {
+    margin: 0px 10px;
+}
+
+.Order-Details-btn-Register-con button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+
+.Order-Details-btn-Register-con:hover button {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}

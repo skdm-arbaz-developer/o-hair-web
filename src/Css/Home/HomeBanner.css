@@ -1,0 +1,88 @@
+.home-banner-main-con{
+    /* border: 1px solid blue; */
+    height:100vh;
+    /* background-image: linear-gradient(to top, #fcf2ee 40%, transparent 100%); */
+    position: relative;
+}
+
+.home-banner-main-con::before{
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background: rgb(203, 219, 197);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.home-page-section-banner-main-con{
+    /* border: 1px solid red; */
+    height: 100%;
+}
+
+.home-banner-main-image-left-side-con{
+    /* border: 1px solid green; */
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.home-banner-image-left-con{
+    border: 10px solid white;
+    height: 80vh;
+}
+
+.home-banner-image-left-con img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.home-banner-right-details-main-con{
+    /* border: 1px solid blue; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-banner-right-details-con{
+    /* border: 1px solid red; */
+    padding: 40px 80px 40px 40px;
+    background: #e8e6e6;
+    border: 10px solid white;
+    transform: translateX(-115px);
+}
+
+.home-banner-right-details-con h2{
+    color: rgb(107, 107, 107);
+    font-size: 45px;
+    font-family: var(---headFont);
+    text-align: left;
+}
+
+.home-banner-right-details-con h3{
+    color: var(---primaryColor);
+    font-size: 45px;
+    font-family: var(---headFont);
+    text-align: left;
+}
+
+.home-banner-right-details-btn-con{
+margin: 30px 0px 0px 0px;
+text-align: left;
+}
+
+.home-banner-right-details-btn-con button{
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.home-banner-right-details-btn-con button svg{
+    font-size: 30px;
+    margin: 0px 0px 0px 10px;
+}

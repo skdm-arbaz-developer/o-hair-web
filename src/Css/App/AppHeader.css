@@ -1,0 +1,41 @@
+.app-home-page-header-main-con {
+    /* border: 1px solid blue; */
+}
+
+.app-home-page-header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.app-home-page-header-details-name {
+    text-align: left;
+}
+
+.app-home-page-header-details-name h2 {
+    font-size: 15px;
+    font-family: var(---smallFont);
+    margin: 0px;
+    font-weight: 300;
+}
+
+.app-home-page-header-details-name h3 {
+    font-family: var(---headFont);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.app-home-page-header-details-notification-icon {
+    border: 1px solid var(---primaryColor);
+    padding: 10px 10px;
+    background:whitesmoke;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-home-page-header-details-notification-icon svg {
+    color: var(---primaryColor);
+}
