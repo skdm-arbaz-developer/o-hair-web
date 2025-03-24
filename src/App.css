@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+html,body{
+  
+  overflow-x: hidden;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+:root {
+  ---headFont: "Marcellus", serif;
+  ---smallFont: "DM Sans", sans-serif;
+  ---primaryColor: #025739;
+  ---blurColor: #02573994;
+  ---secondaryColor: #121f38;
+
+}
+
+
+
+/* all banner css  */
+
+.all-pages-banner-main-con {
+  /* border: 1px solid red; */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.all-pages-banner-con {
+  /* border: 1px solid blue; */
+  margin: 0px 0px 0px 50px;
+  text-align: left;
+}
+
+.all-pages-banner-con h1 {
+  font-family: var(---smallFont);
+  font-weight: 200;
+  /* color: var(---primaryColor); */
+  color: white;
+}
+
+.all-pages-banner-con h2 {
+  font-family: var(---headFont);
+  font-size: 50px;
+  color: white;
+}
+
+.all-pages-banner-con h2 span {
+  color: var(---primaryColor);
+}
+
+.all-page-banner-pagination-main-con {
+  display: flex;
+  align-items: center;
+}
+
+.all-page-banner-pagination-main-con h3 {
+  font-family: var(---smallFont);
+  font-size: 15px;
+  margin: 0px;
+  color: white;
+}
+
+.all-page-banner-pagination-main-con svg {
+  margin: 0px 5px;
+  font-size: 20px;
+  color: white;
+}
+
+.all-page-banner-pagination-main-con h4 {
+  font-family: var(---smallFont);
+  font-size: 15px;
+  margin: 0px;
+  color: white;
+}
+
+
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-outlined:focus-within {
+  border-color: #9a563a !important;
+  box-shadow: 0 0 0 2px rgba(154, 86, 58, 0.1);
+}
+
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-outlined:hover {
+  border-color: #9a563a !important;
+}
+
+
+@media(max-width:800px) {
+  body,
+  html {
+    background: #f7f7ff;
+  }
+}
+
+
+@media(max-width:770px) {
+  .all-pages-banner-con {
+    display: none !important;
+  }
+}
+
+
+@media(max-width:430px){
+  .home-section-about-image-con {
+    /* border: 1px solid red; */
+    height: 60vh;
+    width: max-content;
+}
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #025739;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
