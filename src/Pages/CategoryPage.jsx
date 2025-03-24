@@ -22,7 +22,7 @@ const CategoryPage = () => {
     try {
       setLoading(true);
       const header = {
-        Authorization: `Bearer ${access_token}`,
+        Authorization: `Bearer 1|sSu6UeBi40QxG2iULlO5gUFTZOHQtDXFlKDt4hjVfb8d1209`,
       };
 
       const resp = await get(
