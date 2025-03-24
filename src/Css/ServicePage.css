@@ -1,0 +1,288 @@
+.service-page-banner-image {
+    background-size: cover;
+}
+
+.service-page-section-tabs-details-main-con {
+    /* border: 1px solid blue; */
+}
+
+.service-page-section-tabs-details-main-con-body {
+    /* border: 1px solid red; */
+    margin-bottom: 60px;
+}
+
+.service-page-section-tabs-details-main-con-body h5 {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin: 20px 0px;
+    /* text-align: left; */
+    font-family: var(---headFont);
+    font-size: 30px;
+    color: var(---primaryColor);
+    position: relative;
+}
+
+.service-page-main-service-head::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    background: var(---primaryColor);
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.service-page-section-tabs-details-main-con-body-card-con {
+    /* border: 1px solid green; */
+}
+
+.service-page-section-card-body-main-con {
+    /* border: 1px solid hotpink; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* border-radius: 7px; */
+    /* border: 1px solid black; */
+    /* box-shadow: 0 0 5px rgba(128, 128, 128, 0.497); */
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid var(---primaryColor);
+}
+
+.service-page-section-card-image-main-con {}
+
+.service-page-section-card-image-con {
+    border: 2px dashed var(---primaryColor);
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+}
+
+.service-page-section-card-image-con img {
+    height: 100%;
+    width: 100%;
+    border-radius: 70px;
+    object-fit: cover;
+}
+
+.service-page-section-card-details-con {
+    /* border: 1px solid blue; */
+}
+
+
+.service-page-section-card-head-name {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    /* display: table; */
+    /* margin: 0px 0px 10px 0px; */
+    text-align: left;
+    margin: 0px 10px;
+}
+
+.service-page-section-card-head-name h2 {
+    font-family: var(---headFont);
+    font-size: 15px;
+    /* display: table-cell; */
+    white-space: nowrap;
+    width: 1%;
+}
+
+.new-service-page-setails-menu-main-con span {
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+    background-size: 5px 2px;
+    display: table-cell;
+    height: 3px;
+    position: relative;
+    width: 98%;
+    z-index: 1;
+    display: table-cell;
+}
+
+.price-dots {
+    background-image: radial-gradient(circle closest-side, #9a563a 99%, transparent 100%);
+}
+
+.service-page-section-card-head-name h3 {
+    font-family: var(---headFont);
+    font-size: 14px;
+    display: table-cell;
+    white-space: nowrap;
+    /* width: 1%; */
+}
+
+.service-page-section-card-btn-main-con h3 {
+    font-family: var(---headFont);
+    font-size: 14px;
+    display: table-cell;
+    white-space: nowrap;
+    margin: 0px;
+    /* width: 1%; */
+}
+
+.service-page-section-card-btn-icons{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+    border-radius: 50px;
+    padding: 3px;
+    background: var(---blurColor);
+}
+
+.service-page-section-card-btn-icons svg{
+    font-size: 15px;
+    color: var(---primaryColor);
+}
+
+
+
+
+.service-page-section-card-details-con {}
+
+.service-page-section-card-details-con p {
+    text-align: left;
+    font-family: var(---smallFont);
+    font-size: 14px;
+    margin: 0px;
+}
+
+.service-page-section-card-btn-main-con {
+    text-align: left;
+    margin: 7px 0px 0px 0px;
+    margin: 0px 15px;
+}
+
+.service-page-section-card-btn-main-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+.service-page-section-card-btn-main-con button {
+    font-family: var(---smallFont);
+    font-size: 11px;
+    position: relative;
+    width: max-content;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 23px;
+    background: black;
+    color: white;
+}
+
+/* .service-page-section-card-btn::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    background: var(---primaryColor);
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+} */
+
+
+.service-page-section-card-body-main-con:hover .service-page-section-card-btn::after {
+    width: 100%;
+}
+
+
+.service-page-section-tabs-main-con {
+    /* border: 1px solid blue; */
+    margin: 20px 0px;
+}
+
+.service-page-section-tabs-con {
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-x: scroll;
+    padding: 20px 10px 0px 10px;
+    box-shadow: 0 0 3px gray;
+    border-radius: 7px;
+}
+
+.service-page-section-tabs {
+    /* border: 1px solid green; */
+}
+
+.service-page-section-tabs h2 {
+    font-family: var(---smallFont);
+    margin: 0px;
+    font-size: 18px;
+    margin: 0px 10px 20px 10px;
+    width: max-content;
+}
+
+
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+
+.active-tab {
+    color: #025739;
+    border-bottom: 1px solid #025739;
+}
+
+
+/* new service page  */
+
+.new-service-page-Image-main-con {
+    /* border: 1px solid red; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.new-service-page-image-con {
+    /* border: 1px solid blue; */
+    height: 60vh;
+    width: 100%;
+}
+
+.new-service-page-image-con img {
+    height: 100%;
+    width: 100%;
+}
+
+.new-service-page-setails-menu-main-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.new-service-page-details-menu-list-main-con{
+    /* border: 1px solid blue; */
+    /* height: 80vh; */
+    overflow-y: scroll;
+}

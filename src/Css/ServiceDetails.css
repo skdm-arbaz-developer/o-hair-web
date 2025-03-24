@@ -1,0 +1,113 @@
+
+
+.service-details-section-1{
+    border: 1px solid blue;
+    padding: 10vh 0px;
+}
+
+.service-details-section-main-con{
+    
+}
+/* ///// */
+
+.service-details-section-main-details-con{    
+
+}
+
+.service-details-section-main-details-info-main-image-con{
+
+}
+
+
+.service-details-section-main-details-info-main-image{
+    border: 1px solid black;
+    height: 50vh;
+}
+
+.service-details-section-main-details-info-main-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.service-details-section-main-details-con-info{
+    text-align: left;
+    margin: 30px 0px;
+
+}
+
+.service-details-section-main-details-con-info h3{
+    font-family: var(---headFont);
+    font-size: 30px;
+}
+
+.service-details-section-main-details-con-info p{
+    font-family: var(---smallFont);
+    font-size: 16px;
+    margin: 0 0 18px 0;
+    color: #555555;
+    line-height: 1.63;
+}
+
+.service-details-section-main-details-con-info ul{
+    margin: 0 0 26px 0;
+    padding: 0px;
+}
+.service-details-section-main-details-con-info ul li{
+    position: relative;
+    margin: 0 0 9px 0;
+    list-style: none;
+    padding: 0 0 0 20px;
+    color: #555555;
+    font-size: 16px;
+}
+
+.service-details-section-main-details-con-info li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: var(---primaryColor);
+    border-radius: 50%;
+}
+
+
+.service-details-page-details-info-second-images-main-con{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.service-details-page-details-image-first-main-con{
+    border: 1px solid blue;
+    width: 47%;
+ height: 50vh;
+}
+
+.service-details-page-details-image-first-main-con img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.service-details-page-main-info-con-last{
+    border: 1px solid blue;
+    margin: 30px 0px;
+    text-align: left;
+}
+
+.service-details-page-main-info-con-last h4{
+    font-family: var(---headFont);
+    font-size: 30px;
+}
+
+.service-details-page-main-info-con-last p{
+    font-family: var(---smallFont);
+    font-size: 16px;
+    margin: 0 0 18px 0;
+    color: #555555;
+    line-height: 1.63;
+}

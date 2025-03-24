@@ -1,0 +1,90 @@
+.profile-update-main-con {
+    /* border: 1px solid blue; */
+}
+
+.profile-update-main-details-con {
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+
+}
+
+.profile-update-tabs-details-main-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.profile-update-tabs-main-con {
+    width: 80%;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px 0px;
+    box-shadow: 0 0 5px rgb(199, 199, 199);
+
+}
+
+.profile-update-tabs-head-con {}
+
+.profile-update-tabs-head-con h2 {
+    font-family: var(---headFont);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-color: black;
+}
+
+:where(.css-dev-only-do-not-override-1kf000u).ant-form-item .ant-form-item-control {
+    text-align: left !important;
+}
+
+
+
+
+.profile-update-tabs-details-inputs-con .ant-input-outlined {
+    border: 1px solid black !important;
+    border-color: black !important;
+
+}
+
+/* 
+.profile-update-tabs-details-inputs-con .ant-input{
+    border-radius: 0px !important;
+    height: 20px;
+}
+
+.profile-update-tabs-details-inputs-con .input.ant-input{
+    border-radius: 0px !important;
+    height: 20px;
+} */
+
+.profile-update-tabs-details-inputs-con .ant-input-affix-wrapper{
+    border-radius: 0px !important;
+    height: 50px;
+} 
+
+
+.profile-update-tabs-details-inputs-con .ant-picker-outlined{
+    border-radius: 0px !important;
+    height: 50px;
+    border-color: black !important;
+} 
+
+.profile-update-tabs-details-inputs-con-btn-main-con .ant-btn{
+border-radius: 0px !important;
+width: 40% !important;
+height: 50px !important;
+padding: 0px !important;
+}
+
+.profile-update-tabs-details-inputs-con-btn-main-con .ant-btn-variant-outlined{
+    background-color: black;
+    color: white;
+}
+
+.profile-update-tabs-details-inputs-con-btn-main-con:hover .ant-btn-variant-outlined{
+    background-color: black !important;
+    color: white !important;
+}
