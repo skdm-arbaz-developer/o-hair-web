@@ -62,11 +62,11 @@ const CategoryPage = () => {
                   <div className="category-main-page-section-1-main-con">
                     <div className="row">
                       <div
-                        className={`col-md-5 ${
+                        className={`col-md-5 align-items-start ${
                           index % 2 === 0 ? "order-1" : "order-2"
                         }`}
                       >
-                        <div className="main-category-section-image-main-con">
+                        <div className="main-category-section-image-main-con align-items-start">
                           <div className="main-category-section-image-con w-100">
                             <img
                               style={{ width: "100%", height: "100%" }}
