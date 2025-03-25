@@ -32,7 +32,6 @@ export default function SignUp() {
 
   const onFinish = async (values) => {
     setLoading(true);
-    setProfile(values);
 
     const formattedDateOfBirth = values.date_of_birth
       ? moment(values.date_of_birth).format("YYYY-MM-DD")
@@ -270,11 +269,7 @@ export default function SignUp() {
                     />
                   </Form.Item>
                 </div>
-                <div className="col-12 d-flex justify-content-start">
-                  <Form.Item name="remember" valuePropName="checked">
-                    <Checkbox>Remember me</Checkbox>
-                  </Form.Item>
-                </div>
+               
                 <Form.Item>
                   <Button
                     htmlType="submit"

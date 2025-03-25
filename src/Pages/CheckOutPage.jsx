@@ -38,6 +38,8 @@ const CheckOutPage = () => {
   // Calculate total amount (subtotal + tax)
   let totalamount = finalsubtotal + totaltax;
 
+  console.log(profile)
+
   const onFinish = async () => {
     try {
       setLoading(true);
