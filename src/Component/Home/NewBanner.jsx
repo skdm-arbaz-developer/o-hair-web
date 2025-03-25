@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Css/Home/NewBanner.css";
 // import bannerimage01 from "../../Images/banner/banner_image.png";
-import bannerimage01 from "../../Images/new/home/home-about.png";
+import bannerimage01 from "../../Images/bannerImage.png";
 import { useNavigate } from "react-router-dom";
 const NewBanner = () => {
   const navigate = useNavigate();
