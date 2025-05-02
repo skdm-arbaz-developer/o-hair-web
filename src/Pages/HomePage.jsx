@@ -5,7 +5,7 @@ import About from "../Component/Home/About";
 // import HomePlan from "../Component/Home/HomePlan";
 import NewBanner from "../Component/Home/NewBanner";
 import TimeTableComp from "../Component/TimeTableComp";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 
 const HomePage = () => {
   useLayoutEffect(() => {
@@ -13,7 +13,7 @@ const HomePage = () => {
   });
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                 <title>Hair Salon in Matunga | O'Hair</title>
                 <meta title="Hair Salon in Matunga | O'Hair" />
                 <meta name="description" content="Discover the perfect hair salon in Matunga offering expert haircuts, styling, coloring, and hair treatments. Book your appointment for a stunning new look today!" />
@@ -28,7 +28,7 @@ const HomePage = () => {
                 <meta property="og:url" content="https://www.o hair matunga.com/" />
                 <meta property="og:description" content="Discover the perfect hair salon in Matunga offering expert haircuts, styling, coloring, and hair treatments. Book your appointment for a stunning new look today!" />
                 <meta property="og:image" content="https://www.o hair matunga.com/assets/logo.png" />
-              </MetaTags>
+              </MetaTags> */}
       {/* <HomeBanner/> */}
       <NewBanner />
       {/* <HomeBannerSecond /> */}

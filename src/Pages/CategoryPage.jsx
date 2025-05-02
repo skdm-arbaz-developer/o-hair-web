@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import { get } from "../services/userAuthAPI";
 import { Spin, Empty } from "antd";
 import { useCartContext } from "../context/addToCart";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 
 const CategoryPage = () => {
   const [data, setData] = useState([]);
@@ -52,7 +52,7 @@ const CategoryPage = () => {
 
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                     <title>Salon for Hair Treatment in Matunga | O'Hair</title>
                     <meta title="Salon for Hair Treatment in Matunga | O'Hair" />
                     <meta name="description" content="Salon for Hair Treatment in Matunga offering professional solutions for dry, damaged, & frizzy hair. Restore your hair’s health and shine with expert treatments." />
@@ -67,7 +67,7 @@ const CategoryPage = () => {
                     <meta property="og:url" content="https://www.o hair matunga.com/" />
                     <meta property="og:description" content="Salon for Hair Treatment in Matunga offering professional solutions for dry, damaged, & frizzy hair. Restore your hair’s health and shine with expert treatments." />
                     <meta property="og:image" content="https://www.o hair matunga.com/assets/logo.png" />
-                  </MetaTags>
+                  </MetaTags> */}
     <Spin spinning={loading}>
       <OtherBanner head='Salon for Hair Treatment in Matunga '/>
       {data.length > 0 ? (

@@ -6,7 +6,7 @@ import TextArea from "antd/es/input/TextArea";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import contactImage from "../Images/contactBanner.png";
 import TimeTableComp from "../Component/TimeTableComp";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 
 const ContactPage = () => {
   useLayoutEffect(() => {
@@ -14,7 +14,7 @@ const ContactPage = () => {
   });
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                             <title>Hair Salon near Matunga | O'Hair</title>
                             <meta title="Hair Salon near Matunga | O'Hair" />
                             <meta name="description" content="Looking for a hair salon near Matunga? Get expert haircuts, coloring, and treatments at a top-rated salon just around the corner. Book your appointment today!" />
@@ -29,7 +29,7 @@ const ContactPage = () => {
                             <meta property="og:url" content="https://www.o hair matunga.com/" />
                             <meta property="og:description" content="Looking for a hair salon near Matunga? Get expert haircuts, coloring, and treatments at a top-rated salon just around the corner. Book your appointment today!" />
                             <meta property="og:image" content="https://www.o hair matunga.com/assets/logo.png" />
-                          </MetaTags>
+                          </MetaTags> */}
       <section className="all-pages-banner-main-con service-page-banner-image">
         <div className="all-pages-banner-con">
           <h1>Hair Salon near Matunga </h1>

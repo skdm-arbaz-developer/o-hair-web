@@ -7,14 +7,14 @@ import icons03 from "../Images/banner/icons03.png";
 import section2image from "../Images/banner/about02.png";
 import { useLayoutEffect } from "react";
 import OtherBanner from "../Component/Home/OtherBanner";
-import { MetaTags } from "react-meta-tags";
+// import { MetaTags } from "react-meta-tags";
 const AboutPage = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <>
-    <MetaTags>
+    {/* <MetaTags>
                         <title>Hair Cutting Salon in Matunga | O'Hair</title>
                         <meta title="Hair Cutting Salon in Matunga | O'Hair" />
                         <meta name="description" content="Hair Cutting Salon in Matunga offering trendy haircuts for men, women, and kids. Get the perfect look with professional stylists and personalized service." />
@@ -29,7 +29,7 @@ const AboutPage = () => {
                         <meta property="og:url" content="https://www.o hair matunga.com/" />
                         <meta property="og:description" content="Hair Cutting Salon in Matunga offering trendy haircuts for men, women, and kids. Get the perfect look with professional stylists and personalized service." />
                         <meta property="og:image" content="https://www.o hair matunga.com/assets/logo.png" />
-                      </MetaTags>
+                      </MetaTags> */}
       {/* <section className="all-pages-banner-main-con service-page-banner-image">
                 <div className="all-pages-banner-con">
                     <h2>Passion for Hair, Dedication to Perfection</h2> 
