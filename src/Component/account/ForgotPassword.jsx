@@ -13,7 +13,7 @@ export default function ForgotPassword() {
         </div>
         <div className="col-md-6 d-flex align-items-center justify-content-center">
           <div className="imageDiv">
-            <img src={password} />
+            <img src={password} alt='img'/>
           </div>
         </div>
       </div>

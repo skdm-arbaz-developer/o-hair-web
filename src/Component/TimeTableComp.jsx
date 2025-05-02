@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImages from "../Images/shedule.png"
+import aboutImages from "../Images/shedule.png";
 import { getToken } from "../services/localStorageServices";
 import { Spin } from "antd";
 import { get } from "../services/userAuthAPI";
@@ -78,9 +78,10 @@ export default function TimeTableComp() {
                   </div>
                   <div className="col-lg-12 col-md-9 col-sm-11">
                     <p>
-                      Alienum phaedrum torquatos nec eu, vis detraxit periculis
-                      a is in mei. Mei an periculaeuripidis, hincartem ei est
-                      Alienum drum torquatos nec eu, vis detraxit.
+                      Our salon follows a flexible schedule throughout the week.
+                      Appointments are preferred to reduce wait time and ensure
+                      you receive personalized attention from our professional
+                      and friendly team.
                     </p>
                   </div>
                   <div className="col-lg-12 col-md-8 col-sm-10 pt-xl-2">

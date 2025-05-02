@@ -25,12 +25,13 @@ const About = (() => {
                             <div className="col-md-6">
                                 <div className="home-section-about-main-details-con">
                                     <div class="about-box1">
-                                        <span class="sec-subtitle">Experience Wellnez <span class="sec-subtext">25 Years</span>
+                                        <span class="sec-subtitle">Transform Yourself, Feel Renewed
+                                        {/* <span class="sec-subtext">25 Years</span> */}
                                         </span>
-                                        <h2 class="sec-title2">DISCOVER A <span class="text-theme">NEW</span> YOU </h2>
+                                        <h2 class="sec-title2">Style Made   <span class="text-theme">For</span> You </h2>
                                         <div class="media-style1">
                                             <div class="circle-btn style3">
-                                                <img src={about_image}/>
+                                                <img src={about_image} alt='img'/>
                                                 {/* <a href="about.html" class="btn-icon">
                                                     <MdArrowForward/>
                                                 </a>
@@ -43,10 +44,11 @@ const About = (() => {
                                                 </div> */}
                                             </div>
                                             <div class="media-body">
-                                                <p class="media-text">We think your skin should look and refshed matter your lifestyle Wellnez.</p>
+                                                <p class="media-text">Let go of the ordinary and discover your true radiance with our luxurious facials and body care treatments.
+                                                </p>
                                             </div>
                                         </div>
-                                        <p class="about-text">There are many variations of passages gaks of Lofrem the Ipsum availaasble, busat the majority have suffered alteration in some form sages gaks injected.</p>
+                                        <p class="about-text">Your look matters. Our team listens, styles, and cares so you leave the salon feeling your best every time.</p>
                                         <div class="table-style1">
                                             <div class="tr">
                                                 <div class="th">year of Experience :</div>

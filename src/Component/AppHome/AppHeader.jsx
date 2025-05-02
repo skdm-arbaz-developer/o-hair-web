@@ -67,7 +67,7 @@ const AppHeader = () => {
                 <div className="Product-addedCart-Side-details">
                   {/* <div className="Product-addedCart-Image-con">
                     <div className="Product-addedCart-Image">
-                      <img src={v.subServiceImage} alt="" />
+                      <img src={v.subServiceImage} alt='img' />
                     </div>
                   </div> */}
                   <div className="Product-details-addedCart-price-name-main-con">

@@ -62,8 +62,12 @@ const Category = () => {
         <div className="container">
           <div className="home-section-category-main-con">
             <div className="home-section-category-head-main-con">
-              <h2>skincare by andfaison</h2>
-              <h3>Facials & Body Treatments</h3>
+              <h2>We Style With Love
+              </h2>
+              <h3>Radiance. Rejuvenation. Glow. Naturally.</h3>
+              <p className="lead" style={{display:"none"}}>
+              Feel revitalized with our luxurious facials that bring out your natural radiance, leaving you glowing from within.
+              </p>
               <div className="home-section-category-head-shape-main-con">
                 <div className="home-section-category-head-shape-con">
                   <img src={shape01} alt="shape" />
@@ -101,7 +105,7 @@ const Category = () => {
                         key={index}
                         onClick={() =>
                           navigate(
-                            `/service?page=${item.name
+                            `/salon-for-hair-treatment-matunga?page=${item.name
                               .toLowerCase()
                               .replace(/\s+/g, "-")}`
                           )

@@ -15,16 +15,15 @@ const NewBanner = () => {
               <div className="new-home-banner-section-details-main-con">
                 <div className="new-home-banner-section-details-con">
                   <h2>O'Hair</h2>
-                  <h3>Where Style Meets Perfection!</h3>
+                  <h1>Hair Salon in Matunga </h1>
                   <p>
-                    Step into elegance at O'Hair, where expert stylists
-                    transform your look with precision and creativity. From
-                    trendy cuts to luxurious treatments, we bring out your best
-                    style. Book your appointment today and experience beauty
-                    redefined!
+                    Step into O’Hair Salon and transform your daily style into
+                    something extraordinary. With expert care, premium products,
+                    and personalized services, we help you shine with confidence
+                    every single day.
                   </p>
                   <div className="new-home-banner-section-banner-btn">
-                    <button onClick={() => navigate("/service")}>
+                    <button onClick={() => navigate("/salon-for-hair-treatment-matunga")}>
                       Our Services
                     </button>
                   </div>
@@ -34,7 +33,7 @@ const NewBanner = () => {
             <div className="col-md-6">
               <div className="new-home-banner-section-image-main-con">
                 <div className="new-home-banner-section-image-con">
-                  <img src={bannerimage01} />
+                  <img src={bannerimage01} alt='img'/>
                 </div>
               </div>
             </div>

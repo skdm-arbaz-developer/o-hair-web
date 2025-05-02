@@ -2,12 +2,12 @@ import React from "react";
 import "../../Css/OtherBanner.css";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import otherbanner from "../../Images/banner/other_banner.png";
-const OtherBanner = ({ title }) => {
+const OtherBanner = ({ title ,head}) => {
   return (
     <>
       <section className="all-pages-banner-main-con service-page-banner-image">
         <div className="all-pages-banner-con">
-          <h1>Best Salon Near Matunga</h1>
+          <h1>{head}</h1>
           <h2>
             {title ?? (
               <>

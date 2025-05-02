@@ -48,7 +48,7 @@ const NewServiceList = () => {
       {/* Banner Section */}
       {/* <section className="all-pages-banner-main-con service-page-banner-image">
                 <div className="all-pages-banner-con">
-                    <h1>Best Salon Near Matunga</h1>
+                    <h2>Best Salon Near Matunga</h2>
                     <h2>
                         <span>Our</span> Service
                     </h2>

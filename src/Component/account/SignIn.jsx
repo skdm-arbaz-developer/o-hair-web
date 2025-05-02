@@ -74,7 +74,7 @@ export default function SignIn() {
     } catch (error) {
       // Handle login error, e.g., show an error message
       console.error("Login failed:", error);
-      message.error(error.response.data.message);
+      message.error(error.message);
     } finally {
       setLoading(false);
     }

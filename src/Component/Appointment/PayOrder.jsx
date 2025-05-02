@@ -104,7 +104,7 @@ const PayOrder = ({ onFinish, loading }) => {
               <img src={service_not_select} alt="service not select" />
               <h3>Oops! It looks like you haven't chosen a service yet.</h3>
               <div className="check-out-page-main-images-con-service-btn">
-                <Link to="/service">
+                <Link to="/salon-for-hair-treatment-matunga">
                   <Button>Select Service</Button>
                 </Link>
               </div>

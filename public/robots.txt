@@ -1,3 +1,16 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow:/
+Allow:/salon-for-hair-treatment-matunga
+Allow:/hair-cutting-salon-matunga
+Allow:/hair-salon-near-matunga
+Allow:/appointment
+Allow:/account/sign-in
+Allow:/account/sign-up
+Allow:/account/forgot-password
+Allow:/account/reset-password
+Allow:/booking-history
+Allow:/profile-details
+
+
 Disallow:

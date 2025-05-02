@@ -55,7 +55,7 @@ function App() {
             }
           />
           <Route
-            path="/service"
+            path="/salon-for-hair-treatment-matunga"
             element={
               <>
                 <Header />
@@ -101,7 +101,7 @@ function App() {
             }
           />
           <Route
-            path="/about-us"
+            path="/hair-cutting-salon-matunga"
             element={
               <>
                 <Header />
@@ -111,7 +111,7 @@ function App() {
             }
           />
           <Route
-            path="/contact-page"
+            path="/hair-salon-near-matunga"
             element={
               <>
                 <Header />

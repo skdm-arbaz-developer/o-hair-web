@@ -29,7 +29,7 @@ const Testimonial = (() => {
                             <h3>Testimonial</h3>
                             <div className="home-testimonial-section-head-image-main-con">
                                 <div className="home-testimonial-section-head-image-con">
-                                    <img src={shape01} />
+                                    <img src={shape01} alt='img'/>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const Testimonial = (() => {
                                         <h4>Siddhesh Tamhankar</h4>
                                         <div className="home-testimonial-section-details-client-images-main-con">
                                             <div className="home-testimonial-section-details-client-images-con">
-                                                <img src={images01} />
+                                                <img src={images01} alt='img'/>
                                             </div>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ const Testimonial = (() => {
                                         <h4>Siddhesh Tamhankar</h4>
                                         <div className="home-testimonial-section-details-client-images-main-con">
                                             <div className="home-testimonial-section-details-client-images-con">
-                                                <img src={images02} />
+                                                <img src={images02} alt='img'/>
                                             </div>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ const Testimonial = (() => {
                                         <h4>Siddhesh Tamhankar</h4>
                                         <div className="home-testimonial-section-details-client-images-main-con">
                                             <div className="home-testimonial-section-details-client-images-con">
-                                                <img src={images03} />
+                                                <img src={images03} alt='img'/>
                                             </div>
                                         </div>
                                     </div>

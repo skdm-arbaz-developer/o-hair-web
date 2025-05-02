@@ -50,7 +50,7 @@ const AppTeam = (() => {
                                 <div className="app-home-section-team-service-main-card-con">
                                     <div className="app-home-section-team-service-card-images">
                                         <div className="app-home-section-team-service-card">
-                                            <img src={team01} alt=""/>
+                                            <img src={team01} alt='img'/>
                                         </div>
                                     </div>
                                     <div className="app-home-section-team-service-card-details">
@@ -78,7 +78,7 @@ const AppTeam = (() => {
                                 <div className="app-home-section-team-service-main-card-con">
                                     <div className="app-home-section-team-service-card-images">
                                         <div className="app-home-section-team-service-card">
-                                            <img src={team03} alt=""/>
+                                            <img src={team03} alt='img'/>
                                         </div>
                                     </div>
                                     <div className="app-home-section-team-service-card-details">
@@ -106,7 +106,7 @@ const AppTeam = (() => {
                                 <div className="app-home-section-team-service-main-card-con">
                                     <div className="app-home-section-team-service-card-images">
                                         <div className="app-home-section-team-service-card">
-                                            <img src={team02} alt=""/>
+                                            <img src={team02} alt='img'/>
                                         </div>
                                     </div>
                                     <div className="app-home-section-team-service-card-details">
@@ -134,7 +134,7 @@ const AppTeam = (() => {
                                 <div className="app-home-section-team-service-main-card-con">
                                     <div className="app-home-section-team-service-card-images">
                                         <div className="app-home-section-team-service-card">
-                                            <img src={team03} alt=""/>
+                                            <img src={team03} alt='img'/>
                                         </div>
                                     </div>
                                     <div className="app-home-section-team-service-card-details">

@@ -11,7 +11,7 @@ const HomeBanner = (() => {
                         <div className="col-md-8">
                             <div className="home-banner-main-image-left-side-con">
                                 <div className="home-banner-image-left-con">
-                                    <img src={image01} />
+                                    <img src={image01} alt='img'/>
                                 </div>
                             </div>
                         </div>

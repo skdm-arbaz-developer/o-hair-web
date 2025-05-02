@@ -7,7 +7,7 @@ const ServiceDetails = () => {
     <>
       <section className="all-pages-banner-main-con service-page-banner-image">
         <div className="all-pages-banner-con">
-          <h1>Best Salon Near Matunga</h1>
+          <h2>Best Salon Near Matunga</h2>
           <h2>
             <span>Service</span> Details
           </h2>
@@ -33,7 +33,7 @@ const ServiceDetails = () => {
                 <div className="service-details-section-main-details-con">
                   <div className="service-details-section-main-details-info-main-image-con">
                     <div className="service-details-section-main-details-info-main-image">
-                      <img />
+                      <img alt='img'/>
                     </div>
                   </div>
 

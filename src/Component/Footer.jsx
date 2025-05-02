@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className='footer-section-logo-details-main-con'>
 <div className='Footer-Logo-con'>
                                         <div className='Footer-Logo'>
-                                            <img src={Logo} />
+                                            <img src={Logo} alt='img'/>
                                         </div>
                                     </div>
                         </div>
@@ -31,15 +31,15 @@ const Footer = () => {
                                 <div className='Footer-Logo-and-social-con'>
                                     {/* <div className='Footer-Logo-con'>
                                         <div className='Footer-Logo'>
-                                            <img src={Logo} />
+                                            <img src={Logo} alt='img'/>
                                         </div>
                                     </div> */}
                                     <div className='Footer-Para'>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi optio dolorem fugiat! Totam iure adipisci rerum, laboriosam neque nesciunt quaerat?
+                                        Elegant lines and subtle details showcase the salon’s commitment to quality, precision, and delivering exceptional hair care services.
                                         </p>
                                     </div>
-                                    <div className='Footer-Social-Con'>
+                                    {/* <div className='Footer-Social-Con'>
                                         <div className='Footer-Social'>
                                             <a href="">
                                                 <IoCallOutline />
@@ -65,7 +65,7 @@ const Footer = () => {
                                                 <SlSocialFacebook />
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* <div className='col-md-3'>
@@ -100,21 +100,21 @@ const Footer = () => {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/service">
+                                            <Link to="/salon-for-hair-treatment-matunga">
                                                 Service
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/about-us">
+                                            <Link to="/hair-cutting-salon-matunga">
                                                 About
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to="/contact-page">
+                                            <Link to="/hair-salon-near-matunga">
                                                 Contact
                                             </Link>
                                         </li>
-                                         <li>
+                                         {/* <li>
                                             <Link to="/privacy-policy">
                                                 Privacy Policy
                                             </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
                                             <Link to="/terms-conditions">
                                                 Terms & Conditions
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
 
                                 </div>
@@ -139,8 +139,8 @@ const Footer = () => {
                                         <a>
                                             <IoCallOutline />
                                             <div className='Footer-contact'>
-                                                <h2><a href="tel:+91 00000 00000">+91 00000 00000</a></h2>
-                                                <h2><a href="tel:+91 00000 00000">+91 00000 00000</a></h2>
+                                                <h2><a href="tel:098200 35475">098200 35475</a></h2>
+                                                {/* <h2><a href="tel:+91 00000 00000">+91 00000 00000</a></h2> */}
                                             </div>
                                         </a>
                                         <a href="mailto: jutiepie99@gmail.com">
@@ -149,7 +149,7 @@ const Footer = () => {
                                         </a>
                                         <a href='https://maps.app.goo.gl/7qgtUGLAoD3WnLaj7' target='blank'>
                                             <MdOutlineLocationOn />
-                                            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde maxime eveniet ipsam at magni magnam ad tenetur .</h2>
+                                            <h2>Ground Floor, Mahavir Building, 207, New, Telang Rd, next to Post Office, Matunga East, Mumbai, Maharashtra 400019</h2>
                                         </a>
                                     </div>
                                 </div>

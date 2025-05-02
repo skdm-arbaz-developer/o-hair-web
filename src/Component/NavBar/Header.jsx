@@ -209,16 +209,16 @@ const Header = () => {
                       </Link>
                     </div>
                     <div className="navbar-product-category-head-main-con">
-                      <Link to="/service" onClick={onClose}>
+                      <Link to="/salon-for-hair-treatment-matunga" onClick={onClose}>
                         Services
                       </Link>
                     </div>
                     <div className="navbar-product-category-head-main-con">
-                      <Link to="/about-us" onClick={onClose}>
+                      <Link to="/hair-cutting-salon-matunga" onClick={onClose}>
                         About Us
                       </Link>
                     </div>
-                    <div className="navbar-product-category-head-main-con">
+                    {/* <div className="navbar-product-category-head-main-con">
                       <Link to="/privacy-policy" onClick={onClose}>
                         Privacy Policy
                       </Link>
@@ -227,9 +227,9 @@ const Header = () => {
                       <Link to="/terms-conditions" onClick={onClose}>
                         Terms & Conditions
                       </Link>
-                    </div>
+                    </div> */}
                     <div className="navbar-product-category-head-main-con">
-                      <Link to="/contact-page" onClick={onClose}>
+                      <Link to="/hair-salon-near-matunga" onClick={onClose}>
                         Contact us
                       </Link>
                     </div>
@@ -240,7 +240,7 @@ const Header = () => {
                     </div> */}
                   </div>
                 </div>
-                <div className="navbar-social-media">
+                {/* <div className="navbar-social-media">
                   <div className="navbar-social-media-inner-div">
                     <div>
                       <a
@@ -274,13 +274,13 @@ const Header = () => {
                       </a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </Drawer>
             </Space>
           </div>
           <div className="nav-logo-div">
             <Link to="/">
-              <img src={logo} />
+              <img src={logo} alt='img'/>
             </Link>
           </div>
           <div className="navbar-right-main">
@@ -345,7 +345,7 @@ const Header = () => {
                 <div className="Product-addedCart-Side-details">
                   {/* <div className="Product-addedCart-Image-con">
                     <div className="Product-addedCart-Image">
-                      <img src={v.subServiceImage} alt="" />
+                      <img src={v.subServiceImage} alt='img' />
                     </div>
                   </div> */}
                   <div className="Product-details-addedCart-price-name-main-con">

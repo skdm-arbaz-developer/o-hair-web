@@ -28,7 +28,7 @@
     color: var(---primaryColor);
 }
 
-.new-home-banner-section-details-con h3 {
+.new-home-banner-section-details-con h1 {
     font-family: var(---headFont);
     font-size: 30px;
 }

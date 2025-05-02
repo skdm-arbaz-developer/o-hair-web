@@ -27,7 +27,7 @@ const Team = (() => {
                             <h3>Expert Beautician</h3>
                             <div className="home-team-section-head-image-main-con">
                                 <div className="home-team-section-head-image-con">
-                                    <img src={shape01} />
+                                    <img src={shape01} alt='img'/>
                                 </div>
                             </div>
                         </div>
