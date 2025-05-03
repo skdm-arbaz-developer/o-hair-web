@@ -51,12 +51,12 @@ const About = (() => {
                                         <p class="about-text">Your look matters. Our team listens, styles, and cares so you leave the salon feeling your best every time.</p>
                                         <div class="table-style1">
                                             <div class="tr">
-                                                <div class="th">year of Experience :</div>
-                                                <div class="td">15 Years Service</div>
+                                                <div class="th">Glamour That Lasts</div>
+                                                {/* <div class="td">15 Years Service</div> */}
                                             </div>
                                             <div class="tr">
-                                                <div class="th">WE ALWAYS :</div>
-                                                <div class="td">We think your skin should</div>
+                                                {/* <div class="th">WE ALWAYS :</div> */}
+                                                <div class="td">Long-lasting styles to brighten your days.</div>
                                             </div>
                                         </div>
                                     </div>
