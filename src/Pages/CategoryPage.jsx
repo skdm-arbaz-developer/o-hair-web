@@ -94,7 +94,8 @@ const CategoryPage = () => {
                           </div>
                         </div>
                       </div>
-                      <div
+                      {/*  */}
+                      <div 
                         className={`col-md-7 ${
                           index % 2 === 0 ? "order-2" : "order-1"
                         }`}
