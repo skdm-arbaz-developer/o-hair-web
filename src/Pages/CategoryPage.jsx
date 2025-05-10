@@ -94,8 +94,7 @@ const CategoryPage = () => {
                           </div>
                         </div>
                       </div>
-                      {/*  */}
-                      <div 
+                      <div
                         className={`col-md-7 ${
                           index % 2 === 0 ? "order-2" : "order-1"
                         }`}
@@ -107,7 +106,7 @@ const CategoryPage = () => {
                           </div>
                           <div className="category-main-page-section-details-card-main-con">
                             <Accordion defaultActiveKey="0">
-                              {sub_categories.map((data, index) => {
+                              {sub_categories?.map((data, index) => {
                                 const { name, services } = data;
                                 return (
                                   <>

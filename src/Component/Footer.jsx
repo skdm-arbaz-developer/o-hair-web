@@ -139,8 +139,10 @@ const Footer = () => {
                                         <a>
                                             <IoCallOutline />
                                             <div className='Footer-contact'>
-                                                <h2><a href="tel:098200 35475">098200 35475</a></h2>
-                                                {/* <h2><a href="tel:+91 00000 00000">+91 00000 00000</a></h2> */}
+                                                <h2><a href="tel:7400457777">+91 74004 57777</a></h2>
+                                                <h2><a href="tel:9029176825">+91 90291 76825</a></h2>
+                                                <h2><a href="tel:9820035475">+91 98200 35475</a></h2>
+                                                <h2><a href="tel:9920035475">+91 99200 35475</a></h2>
                                             </div>
                                         </a>
                                         <a href="mailto: jutiepie99@gmail.com">

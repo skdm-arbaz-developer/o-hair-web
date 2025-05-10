@@ -14,7 +14,7 @@ const ContactPage = () => {
   });
   return (
     <>
-    {/* <MetaTags>
+      {/* <MetaTags>
                             <title>Hair Salon near Matunga | O'Hair</title>
                             <meta title="Hair Salon near Matunga | O'Hair" />
                             <meta name="description" content="Looking for a hair salon near Matunga? Get expert haircuts, coloring, and treatments at a top-rated salon just around the corner. Book your appointment today!" />
@@ -60,7 +60,7 @@ const ContactPage = () => {
                     <h3>
                       {" "}
                       Connect For A Fresh  {" "}
-<span>Transformation</span>{" "}
+                      <span>Transformation</span>{" "}
                     </h3>
                     <p>
                       We think your skin should look and refshed matter Nourish
@@ -196,11 +196,35 @@ const ContactPage = () => {
                         </div>
 
                         <h3>
-                          <a>
+                          <a href="tel:7400457777">
                             <span>
                               <RiCustomerService2Fill />
                             </span>
-                            098200 35475
+                            +91 74004 57777
+                          </a>
+                        </h3>
+                        <h3>
+                          <a href="tel:9029176825">
+                            <span>
+                              <RiCustomerService2Fill />
+                            </span>
+                            +91 90291 76825
+                          </a>
+                        </h3>
+                        <h3>
+                          <a href="tel:9820035475">
+                            <span>
+                              <RiCustomerService2Fill />
+                            </span>
+                            +91 98200 35475
+                          </a>
+                        </h3>
+                        <h3>
+                          <a href="tel:9920035475">
+                            <span>
+                              <RiCustomerService2Fill />
+                            </span>
+                            +91 99200 35475
                           </a>
                         </h3>
                       </div>
@@ -213,7 +237,7 @@ const ContactPage = () => {
         </div>
       </section>
       <TimeTableComp />
-      <div className="container" style={{display:"none"}}>
+      <div className="container" style={{ display: "none" }}>
         <p className="lead">Looking for a trusted hair salon near Matunga that truly understands your hair care needs? We’d love to hear from you! At O’Hair Salon, we’re committed to providing you with exceptional service, expert styling, and a warm, welcoming atmosphere every time you visit. Whether you have a question about our services, want to schedule an appointment, or simply wish to speak with our team, we’re here to help. Located conveniently in the heart of Matunga, our salon is easy to reach and offers a relaxing environment where you can unwind and enjoy personalized hair care. As a preferred hair salon near Matunga, we offer flexible appointment slots and prompt assistance to ensure your experience is smooth and hassle-free. You can contact us by phone, email, or by visiting our salon directly; we’re always happy to assist. Our team is ready to answer your queries, suggest the right treatments for your hair type, and help you choose the best styling options. We also welcome feedback and suggestions, as your satisfaction is our top priority. At O’Hair, we aim to build lasting relationships with our clients by offering reliable service and genuine care. Whether it’s your first visit or you’re a returning client, you can always expect our full attention and expertise. As a leading hair salon near Matunga, we take pride in being your go-to destination for professional haircuts, treatments, and styling services. Reach out to us today, and let’s start your hair transformation journey with confidence. O’Hair Salon is here to bring out the best in your hair with a friendly team, quality products, and a passion for excellence. We can’t wait to meet you and give your hair the care it truly deserves. Let's connect and create something beautiful together.
         </p>
       </div>

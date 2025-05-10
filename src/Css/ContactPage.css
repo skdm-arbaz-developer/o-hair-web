@@ -178,22 +178,24 @@
 
 .contact-table h3 {
     text-align: left;
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 5px 0px;
     font-family: var(---headFont);
     color: var(---secondaryColor);
     text-transform: none;
     font-weight: 400;
-    line-height: 1.2;
-    font-size: 40px;
 }
 
-.contact-table h3 a {}
+.contact-table h3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
 
 .contact-table h3 a span {
     margin: 0px 30px 0px 0px;
 }
 
 .contact-table h3 a span svg {
-    font-size: 50px;
+    font-size: 20px;
     color: var(---primaryColor);
 }

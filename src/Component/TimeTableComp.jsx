@@ -74,7 +74,7 @@ export default function TimeTableComp() {
                 <span className="sub-title">Meet with us At</span>
                 <div className="row justify-content-center">
                   <div className="col-lg-12 col-md-10 col-sm-9">
-                    <h2 className="sec-title">Our saloons shedule time</h2>
+                    <h2 className="sec-title">Our salons schedule time</h2>
                   </div>
                   <div className="col-lg-12 col-md-9 col-sm-11">
                     <p>
@@ -92,7 +92,7 @@ export default function TimeTableComp() {
                         </div>
                         <div className="col-4 d-flex justify-content-center">
                           {item === "" ? (
-                            <strong>Male</strong>
+                            <strong>Men</strong>
                           ) : timeTabel?.find(
                               (val) => val.type === "Male" && val.day === item
                             )?.status === "deactive" ? (
@@ -122,7 +122,7 @@ export default function TimeTableComp() {
                         </div>
                         <div className="col-4 d-flex justify-content-center">
                           {item === "" ? (
-                            <strong>Female</strong>
+                            <strong>Women</strong>
                           ) : timeTabel?.find(
                               (val) => val.type === "Female" && val.day === item
                             )?.status === "deactive" ? (

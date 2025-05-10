@@ -3,7 +3,6 @@ import "../../Css/account.css";
 import login from "../../Images/Untitled design (5).png";
 import { Breadcrumb, Button, Checkbox, Form, Input, message } from "antd";
 import { Link, useNavigate } from "react-router-dom";
-import axios from "axios";
 import { LuUser } from "react-icons/lu";
 import Google from "../../Images/google-removebg-preview.png";
 import { useDispatch, useSelector } from "react-redux";
@@ -25,28 +24,28 @@ export default function SignIn() {
   const clientId =
     "413735203093-tt019nmdfqqkff5vf69lhskudqtph6m0.apps.googleusercontent.com";
 
-  const onSuccess = async (res) => {
-    try {
-      const formDataToSend = new FormData();
-      // Append data to FormData object
-      formDataToSend.append("User_Name", res.profileObj.name);
-      formDataToSend.append("User_Email", res.profileObj.email);
-      formDataToSend.append("action", "add");
-      const response = await post(
-        "https://ohair.lifestylefitnes.com/api/Googlelogin.php?",
-        formDataToSend
-      );
-      if (response.data) {
-        dispatch(setUserToken({ token: response.data.token }));
-        storeToken(response.data.token);
-        setProfile(response.data.profile);
-        navigate("/");
-      }
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    }
-    console.log("LOGIN SUCCESS! Current user: ", res.profileObj);
-  };
+  // const onSuccess = async (res) => {
+  //   try {
+  //     const formDataToSend = new FormData();
+  //     // Append data to FormData object
+  //     formDataToSend.append("User_Name", res.profileObj.name);
+  //     formDataToSend.append("User_Email", res.profileObj.email);
+  //     formDataToSend.append("action", "add");
+  //     const response = await post(
+  //       "https://ohair.lifestylefitnes.com/api/Googlelogin.php?",
+  //       formDataToSend
+  //     );
+  //     if (response.data) {
+  //       dispatch(setUserToken({ token: response.data.token }));
+  //       storeToken(response.data.token);
+  //       setProfile(response.data.profile);
+  //       navigate("/");
+  //     }
+  //   } catch (error) {
+  //     console.error("Error fetching data:", error);
+  //   }
+  //   console.log("LOGIN SUCCESS! Current user: ", res.profileObj);
+  // };
 
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
