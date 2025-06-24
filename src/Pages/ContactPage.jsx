@@ -7,11 +7,44 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import contactImage from "../Images/contactBanner.png";
 import TimeTableComp from "../Component/TimeTableComp";
 // import { MetaTags } from "react-meta-tags";
+import $ from "jquery";
 
 const ContactPage = () => {
+  const [form] = Form.useForm();
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
+
+  const submitForm = (values) => {
+    var body = '<!DOCTYPE html><html><head><title>Enquiry Lead</title></head><body><div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#000;padding:20px"><h2 style="color:#fff">O Hair Matunga</h2><p style="color:#fff">Hello</p><p style="color:#fff">Thank you for your interest in our products/services.</p><p style="color:#fff">Please check your enquiry which generated from website:</p><table cellpadding="5" style="margin:0"><tr><td style="text-align:left;color:#fff"><strong>Name:</strong></td><td style="text-align:left;color:#fff">' + values.name + '</td></tr><tr><td style="text-align:left;color:#fff"><strong style="color:#fff">Mail:</strong></td><td style="text-align:left;color:#fff">' + values.email + '</td></tr><tr><td style="text-align:left;color:#fff"><strong>Contact No:</strong></td><td style="text-align:left;color:#fff">' + values.contact + '</td></tr><tr><td style="text-align:left;color:#fff"><strong>Message:</strong></td><td style="text-align:left;color:#fff">' + values.message + '</td></tr></table><p style="text-align:left;color:#fff">Best regards,<br>Your Team at O Hair Matunga</p></div></body></html>';
+
+
+    $.post(
+      "https://skdm.in/server/v1/send_lead_mail.php",
+      {
+        toEmail: "ohairmatunga@gmail.com",
+        fromEmail: "ohairmatunga@gmail.com",
+        bccMail: "skdmlead@gmail.com",
+        mailSubject: "New Customer Lead",
+        mailBody: body,
+        accountName: "ohair",
+        accountLeadSource: "https://ohair.in/",
+        accountLeadName: values.name,
+        accountLeadEmail: values.email,
+        accountLeadPhone: values.contact,
+      },
+      function (dataa, status) {
+        console.log('data:', dataa);
+      }
+    );
+
+    alert("Your Form has Submitted. Our team will contact you soon.");
+
+    // Reset the form fields after submission
+    form.resetFields();
+  };
+
+
   return (
     <>
       {/* <MetaTags>
@@ -67,85 +100,105 @@ const ContactPage = () => {
                       your outer inner beauty with our essential
                     </p>
                     <div className="contact-page-form-section-form-inputs-main-con">
-                      <Form layout="vertical">
-                        <div className="conatct-page-form-section-form-details-con">
-                          <Form.Item
-                            name="username"
-                            rules={[
-                              {
-                                required: true,
-                                message: "Please input your username!",
-                              },
-                            ]}
-                          >
-                            <Input
-                              placeholder="Your Name"
-                              style={{ height: "50px", borderRadius: "0px" }}
-                            />
-                          </Form.Item>
-                        </div>
-                        <div className="conatct-page-form-section-form-details-con">
-                          <Form.Item
-                            name="username"
-                            rules={[
-                              {
-                                required: true,
-                                message: "Please input your username!",
-                              },
-                            ]}
-                          >
-                            <Input
-                              placeholder="Your Email"
-                              style={{ height: "50px", borderRadius: "0px" }}
-                            />
-                          </Form.Item>
-                        </div>
-                        <div className="conatct-page-form-section-form-details-con">
-                          <Form.Item
-                            name="username"
-                            rules={[
-                              {
-                                required: true,
-                                message: "Please input your username!",
-                              },
-                            ]}
-                          >
-                            <Input
-                              placeholder="Subject"
-                              style={{ height: "50px", borderRadius: "0px" }}
-                            />
-                          </Form.Item>
-                        </div>
-                        <div className="conatct-page-form-section-form-details-con">
-                          <Form.Item
-                            name="username"
-                            rules={[
-                              {
-                                required: true,
-                                message: "Please input your username!",
-                              },
-                            ]}
-                          >
-                            <TextArea
-                              placeholder="Message"
-                              style={{ borderRadius: "0px" }}
-                              rows={6}
-                            />
-                          </Form.Item>
-                        </div>
+                    <Form layout="vertical" onFinish={submitForm} form={form}>
+  <div className="conatct-page-form-section-form-details-con">
+    <Form.Item
+      name="name"
+      rules={[
+        {
+          required: true,
+          message: "Please enter your name!",
+        },
+        {
+          min: 2,
+          message: "Name must be at least 2 characters.",
+        },
+      ]}
+    >
+      <Input
+        placeholder="Your Name"
+        style={{ height: "50px", borderRadius: "0px" }}
+      />
+    </Form.Item>
+  </div>
 
-                        <div className="contact-page-form-section-btn-main-con">
-                          <Form.Item label={null}>
-                            <Button
-                              type="primary"
-                              htmlType="submit"
-                              className="vs-btn"
-                            >
-                              Submit
-                            </Button>
-                          </Form.Item>
-                        </div>
-                      </Form>
+  <div className="conatct-page-form-section-form-details-con">
+    <Form.Item
+      name="email"
+      rules={[
+        {
+          required: true,
+          message: "Please enter your email!",
+        },
+        {
+          type: "email",
+          message: "Please enter a valid email address!",
+        },
+      ]}
+    >
+      <Input
+        placeholder="Your Email"
+        style={{ height: "50px", borderRadius: "0px" }}
+      />
+    </Form.Item>
+  </div>
+
+  <div className="conatct-page-form-section-form-details-con">
+    <Form.Item
+      name="contact"
+      rules={[
+        {
+          required: true,
+          message: "Please enter your contact number!",
+        },
+        {
+          pattern: /^[6-9]\d{9}$/,
+          message: "Please enter a valid 10-digit Indian phone number!",
+        },
+      ]}
+    >
+      <Input
+        placeholder="Contact Number"
+        style={{ height: "50px", borderRadius: "0px" }}
+      />
+    </Form.Item>
+  </div>
+
+  <div className="conatct-page-form-section-form-details-con">
+    <Form.Item
+      name="message"
+      rules={[
+        {
+          required: true,
+          message: "Please enter your message!",
+        },
+        {
+          min: 10,
+          message: "Message should be at least 10 characters long.",
+        },
+      ]}
+    >
+      <TextArea
+        placeholder="Message"
+        style={{ borderRadius: "0px" }}
+        rows={6}
+      />
+    </Form.Item>
+  </div>
+
+  <div className="contact-page-form-section-btn-main-con">
+    <Form.Item label={null}>
+      <Button
+        type="primary"
+        htmlType="submit"
+        className="vs-btn"
+      >
+        Submit
+      </Button>
+    </Form.Item>
+  </div>
+</Form>
+
                     </div>
                   </div>
                 </div>

@@ -87,9 +87,33 @@
     width: 100%;
 }
 
+
+.transform-banner{
+height: 60vh;
+/* width: 40vh; */
+margin-bottom: 40px;
+}
+
+.transform-banner img{
+height: 100%;
+width: 100%;
+}
+
 @media(max-width:430px){
     .about-media {
     justify-content: center !important;
     text-align: center !important;
+    }
+    .transform-banner{
+        height: 45vh;
+        margin-bottom: 40px;
+        }
+}
+
+@media(max-width:768px){
+    .about-us-image {
+        /* border: 1px solid red; */
+        height: 60vh;
+        width: fit-content;
     }
 }

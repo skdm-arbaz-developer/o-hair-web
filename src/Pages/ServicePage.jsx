@@ -96,14 +96,14 @@ const ServicePage = () => {
                                                                 Perspiciatis quaerat incidunt molestias odit libero
                                                                 tenetur beatae saepe pariatur, consectetur totam!
                                                             </p> */}
-                              <div className="service-page-section-card-btn-main-con">
+                              {/* <div className="service-page-section-card-btn-main-con">
                                 <button
                                   className="service-page-section-card-btn"
                                   onClick={() => handleAddCart(subElem)}
                                 >
                                   Book now
                                 </button>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>

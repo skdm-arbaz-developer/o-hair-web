@@ -14,7 +14,7 @@ const AboutPage = () => {
   });
   return (
     <>
-    {/* <MetaTags>
+      {/* <MetaTags>
                         <title>Hair Cutting Salon in Matunga | O'Hair</title>
                         <meta title="Hair Cutting Salon in Matunga | O'Hair" />
                         <meta name="description" content="Hair Cutting Salon in Matunga offering trendy haircuts for men, women, and kids. Get the perfect look with professional stylists and personalized service." />
@@ -47,8 +47,10 @@ const AboutPage = () => {
         <div className="container">
           <div className="row text-center text-lg-start align-items-center justify-content-between flex-row-reverse">
             <div className="col-lg-6 col-xl-6">
-              <div className="transform-banner mb-30">
-                <img src={aboutImages} alt="ABout Image" />
+              <div className="d-flex justify-content-center">
+                <div className="transform-banner mb-30">
+                  <img src={aboutImages} alt="ABout Image" />
+                </div>
               </div>
             </div>
             <div className="col-lg-6 col-xl-5">
@@ -131,15 +133,19 @@ const AboutPage = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-xl-6 mb-40 mb-lg-0">
-              <div className="about-us-image">
-                <img src={section2image} alt="About Image" className="w-100" />
+              <div className="d-flex justify-content-center">
+                <div className="about-us-image">
+                  <img src={section2image} alt="About Image" className="w-100" />
+                </div>
               </div>
             </div>
             <div className="col-lg-6 col-xl-5 offset-xxl-1 ps-xl-5 ps-xxl-0">
               <div className="about-media-wrap">
                 <div className="d-md-flex gap-4 about-media text-center text-md-start">
-                  <div className="media-img mb-30 mb-md-0">
-                    <img src={icons01} alt="about image" />
+                  <div className="d-flex justify-content-center">
+                    <div className="media-img mb-30 mb-md-0">
+                      <img src={icons01} alt="about image" />
+                    </div>
                   </div>
                   <div className="media-body">
                     <h4 className="mb-1 mt-n1">Relaxing Hair Experience</h4>
@@ -151,8 +157,10 @@ const AboutPage = () => {
                   </div>
                 </div>
                 <div className="d-md-flex gap-4 about-media text-center text-md-start">
-                  <div className="media-img mb-30 mb-md-0">
-                    <img src={icons02} alt="about image" />
+                  <div className="d-flex justify-content-center">
+                    <div className="media-img mb-30 mb-md-0">
+                      <img src={icons02} alt="about image" />
+                    </div>
                   </div>
                   <div className="media-body">
                     <h4 className="mb-1 mt-n1">Unwind with Style</h4>
@@ -164,8 +172,10 @@ const AboutPage = () => {
                   </div>
                 </div>
                 <div className="d-md-flex gap-4 about-media text-center text-md-start">
-                  <div className="media-img mb-30 mb-md-0">
-                    <img src={icons03} alt="about image" />
+                  <div className="d-flex justify-content-center">
+                    <div className="media-img mb-30 mb-md-0">
+                      <img src={icons03} alt="about image" />
+                    </div>
                   </div>
                   <div className="media-body">
                     <h4 className="mb-1 mt-n1">Comfortable Salon Experience</h4>
@@ -182,7 +192,7 @@ const AboutPage = () => {
       </section>
 
       <About />
-      <div className="container" style={{display:"none"}}>
+      <div className="container" style={{ display: "none" }}>
         <p className="lead">Elevate Your Look Today</p>
         <p className="lead">Unleash Your Inner Confidence</p>
         <p className="lead">

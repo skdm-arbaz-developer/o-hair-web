@@ -199,3 +199,9 @@
     font-size: 20px;
     color: var(---primaryColor);
 }
+
+@media(max-width:768px){
+    .contact-page-form-section-main-con h3 {
+        font-size: 30px;
+    }
+}

@@ -111,50 +111,16 @@ const Category = () => {
                           )
                         }
                       >
+                        <div className="d-flex justify-content-center">
                         <div className="home-catering-category-main-service-con">
                           <div className="home-catering-category-service-con">
                             <img src={item.image} alt="icons01" />
                           </div>
                           <h3>{item.name}</h3>
                         </div>
+                        </div>
                       </SwiperSlide>
                     ))}
-                    {/* <SwiperSlide>
-                      <div className="home-catering-category-main-service-con">
-                        <div className="home-catering-category-service-con">
-                          <img src={women} alt="icons01" />
-                        </div>
-                        <h3>women</h3>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="home-catering-category-main-service-con">
-                        <div className="home-catering-category-service-con">
-                          <img
-                            style={{ objectFit: "cover" }}
-                            src={bridal}
-                            alt="icons01"
-                          />
-                        </div>
-                        <h3>Bridal</h3>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="home-catering-category-main-service-con">
-                        <div className="home-catering-category-service-con">
-                          <img src={facial} alt="icons01" />
-                        </div>
-                        <h3>Facials</h3>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="home-catering-category-main-service-con">
-                        <div className="home-catering-category-service-con">
-                          <img src={waxing_nails} alt="icons01" />
-                        </div>
-                        <h3>Waxing & Nails</h3>
-                      </div>
-                    </SwiperSlide> */}
                   </Swiper>
                 </div>
               </div>

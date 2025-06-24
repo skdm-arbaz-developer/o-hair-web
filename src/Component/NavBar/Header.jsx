@@ -155,7 +155,7 @@ const Header = () => {
                 open={open}
                 // bodyStyle={{ backgroundColor: "#f0f0f0" }} // Change to your desired color
               >
-                {!profile ? (
+                {/* {!profile ? (
                   <>
                     <Link
                       to="/account/sign-in"
@@ -194,7 +194,7 @@ const Header = () => {
                       </Link>
                     </div>
                   </>
-                )}
+                )} */}
 
                 <div className="d-flex navbar-product-category">
                   <div>
@@ -283,7 +283,7 @@ const Header = () => {
               <img src={logo} alt='img'/>
             </Link>
           </div>
-          <div className="navbar-right-main">
+          {/* <div className="navbar-right-main">
             <div className="navbar-right-main-con">
               {token ? (
                 <div>
@@ -304,7 +304,7 @@ const Header = () => {
                   theme={{
                     components: {
                       Button: {
-                        /* here is your component tokens */
+                        
                       },
                     },
                   }}
@@ -328,7 +328,7 @@ const Header = () => {
                 />
               </Badge>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

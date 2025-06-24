@@ -99,6 +99,13 @@
     .new-home-baner-section-1 {
         height: auto;
     }
+
+    .new-home-banner-section-details-main-con {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 55vh;
+    }
 }
 
 
@@ -129,7 +136,7 @@
         justify-content: center;
         align-items: end;
         /* border: 1px solid blue; */
-        height: 70vh;
+        /* height: 70vh; */
     }
 
     .new-home-banner-section-image-main-con {

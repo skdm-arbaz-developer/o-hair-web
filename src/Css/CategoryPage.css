@@ -4,7 +4,7 @@
 }
 
 .category-main-page-section-1-main-con{
-    border: 1px solid #e7e7e7;
+    /* border: 1px solid #e7e7e7; */
     margin: 30px 0px;
     padding: 20px;
     border-radius: 20px;
@@ -39,7 +39,7 @@
     margin-top: 0px;
     padding-bottom: 10px;
     position: relative;
-    text-align: left;
+    text-align: center;
 }
 
 .category-main-page-section-head-con p{
@@ -56,5 +56,24 @@
     background-color: var(---primaryColor);
     bottom: 0;
     left: 0;
+
+}
+
+
+@media(max-width:576px){
+    .category-main-page-section-1-main-con {
+padding: 0px;
+border-radius: 0px;
+border: none;
+    }
+
+    .category-main-page-section-head-con h2 {
+text-align: center;
+    }
+
+    .category-main-page-section-details-main-con {
+        padding: 30px 0px;
+    }
+
 
 }
